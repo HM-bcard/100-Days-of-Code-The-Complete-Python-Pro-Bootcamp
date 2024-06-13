@@ -5,10 +5,10 @@ if height > 120:
     print("Can ride")
     if age <12:
         print("The fee is 5 usd")
-    age <= 18:
+    elif age <= 18:
         print("The fee is 7")
-else:
-    print("The full fee is 100 usd")
+    else:
+        print("The full fee is 100 usd")
 elif height < 120:
     print("Can't ride")
 else:
