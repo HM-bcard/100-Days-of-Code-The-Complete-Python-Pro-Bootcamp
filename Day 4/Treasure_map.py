@@ -6,7 +6,7 @@ print("Hiding your treasure! X marks the spot.")
 position = input() # Where do you want to put the treasure?
 # 🚨 Don't change the code above 👆
 # Write your code below this row 👇
-position_split = position.split()
+position_split = position.split() # position split splits string into a list
 if position_split[0][0] == 'A' and position_split[0][1] == '1':
   line1[0] = 'X' 
 elif position_split[0][0] == 'A' and position_split[0][1] == '2':
